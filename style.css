@@ -1,0 +1,105 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f9f3f3; /* Soft pink background */
+}
+
+.container {
+    max-width: 500px;
+    margin: 55px auto;
+    padding: 20px;
+    background-color: #ffe0e0; /* Light pink container */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.container h2 {
+    font-weight: bold;
+    color: #4d4d4d; /* Dark text */
+}
+
+.sidebar {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    right: 0 ;
+    background-color: #ffe0e0; /* Light pink sidebar */
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.sidebar h2 {
+    color: #4d4d4d; /* Dark text */
+    text-align: left;
+    padding-left: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+}
+
+.sidebar ul li a {
+    color: #4d4d4d; /* Dark text */
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 5%;
+    padding: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #ffe0e0; /* Light pink table header */
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #fff; /* White table row */
+}
+
+.form input {
+    width: 95%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ffd6d6; /* Light pink border */
+    border-radius: 5px;
+}
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ff9999; /* Soft pink button */
+    color: #fff;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #ff7f7f; /* Darker pink on hover */
+}
+
+.form p {
+    margin-top: 15px;
+    color: #4d4d4d; /* Dark text */
+}
+
+/* Link color */
+a {
+    color: #4d4d4d;
+}
+
+/* Link hover color */
+a:hover {
+    color: #ff7f7f; /* Darker pink on hover */
+}
